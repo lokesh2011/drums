@@ -60,7 +60,7 @@ function buttonAnimation(key) {
       activeButton.classList.add("pressed");
       setTimeout(function() {
         activeButton.classList.remove("pressed");
-      }, 500);
+      }, 200);
   }else{
       alert(key + " is Not Available")
   }
